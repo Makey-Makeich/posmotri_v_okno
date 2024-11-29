@@ -16,6 +16,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  
 }
 
 h1,
@@ -35,4 +36,235 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.result {
+  padding-top: 70px;
+}
+
+.result__video-container {
+  position: relative;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.result__video {
+  width: 711px;
+  height: 386px;
+}
+
+.search-form {
+  width: 711px;
+  height: 54px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  bottom: 0;
+}
+
+.search-form__label {
+  width: fit-content;
+}
+
+.search-form__fieldset {
+  width: 225px;
+  height: 54px;
+  border: 0;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.search-form__fieldset-title {
+  margin-left: 1.5px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.search-form__textfield {
+  background: transparent;
+  border: 0;
+  text-decoration-line: overline underline;
+  color: white;
+  text-underline-offset: 26%;
+}
+
+.search-form__submit-button {
+  width: 60px;
+  height: 30px;
+}
+
+.search-form__checkbox-list  {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.search-form__pseudo-checkbox {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.content__details {
+  overflow: scroll;
+  width: 450px;
+  height: 338px;
+  margin-top: 200px;
+  margin-left: 8px;
+  margin-right: 40px;
+}
+
+.title {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  text-transform: uppercase;
+  line-height: 65px;
+  background-color: #1b1919;
+  padding-left: 15px;
+}
+
+.content__list {
+  position: relative;
+}
+
+.content__card-link {
+  display: block;
+  text-decoration: none;
+  color:white;
+  margin: 2px;
+}
+
+.content__accent {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.25;
+}
+
+.content__list-item:not(:last-child) {
+  margin: 32px 0px 0px 20px
+}
+
+.content__video-card {
+  display: flex;
+  align-content: start;
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+}
+
+.content__video-card-description-container {
+  width: 100%;
+  height: 100%;
+}
+
+.content__video-card-title {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+} 
+
+.button {
+  border: 1px solid #fff;
+  color: white;
+  background-color: transparent;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  outline-offset: 2px;
+}
+
+.search-form__submit-button {
+  width: 194px;
+  height: 34px;
+  margin-top: 15px;
+}
+
+.more-button {
+  width: 399px;
+  height: 34px;
+  margin: 22px;
+
+}
+.content__card-link:focus {
+  outline: 0;
+}
+
+.content__card-link:focus-visible {
+  outline: 1px solid white;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid white;
+  outline-offset: 1px;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.button:focus-visible {
+  outline: 1px solid white;
+}
+
+input[type='checkbox']:checked + .search-form__pseudo-checkbox::before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  margin: 1px;
+}
+
+.content__card-link:hover {
+  text-decoration-line: underline;
+}
+
+
+.button:hover {
+  text-decoration-line: underline;
+}
+
+.search-form__label:hover {
+  text-decoration-line: underline;
+}
+
+.button:active {
+  background-color: #545050;
+}
+  
+.content__card-link_current:active {
+  background-color: #545050;
 }
