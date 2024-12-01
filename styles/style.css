@@ -118,9 +118,8 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
-  text-decoration-line: overline underline;
-  color: rgb(255, 255, 255);
-  text-underline-offset: 26%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .search-form__checkbox-list  {
