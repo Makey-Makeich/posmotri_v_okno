@@ -96,7 +96,13 @@ ol {
 }
 
 .search-form__fieldset-title {
-  margin-left: 2.5px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.search-form__fieldset-title__two {
+  margin-left: 6px;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
