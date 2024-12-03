@@ -54,7 +54,7 @@ ol {
 
 .result__video-container {
   position: relative;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   object-fit: cover;
   width: 711px;
   height: 386px;
@@ -100,6 +100,7 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
+  margin-bottom: 4px;
 }
 
 .search-form__fieldset-title__two {
@@ -107,6 +108,7 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 400;
   font-size: 18px;
+  margin-bottom: 4px;
 }
 
 .search-form__textfield {
@@ -118,6 +120,7 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
+  color: white;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
@@ -163,7 +166,7 @@ ol {
   position: relative;
   overflow: auto;
   width: 400px;
-  height: 292px;
+  height: 294px;
   margin-right: 1px;
   margin-left: 35px;
 }
@@ -248,7 +251,7 @@ ol {
 }
 
 .more-button {
-  width: 399px;
+  width: 384px;
   height: 34px;
   padding-right: 10px;
   margin-top: 4px;
